@@ -1,0 +1,20 @@
+C:\Users\Me.Me-PC\Desktop\restaurant\ManageRestaurant\DAL\bin\Debug\DAL.dll.config
+C:\Users\Me.Me-PC\Desktop\restaurant\ManageRestaurant\DAL\bin\Debug\DAL.dll
+C:\Users\Me.Me-PC\Desktop\restaurant\ManageRestaurant\DAL\bin\Debug\DAL.pdb
+C:\Users\Me.Me-PC\Desktop\restaurant\ManageRestaurant\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Me.Me-PC\Desktop\restaurant\ManageRestaurant\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Me.Me-PC\Desktop\restaurant\ManageRestaurant\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Me.Me-PC\Desktop\restaurant\ManageRestaurant\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Me.Me-PC\Desktop\restaurant\ManageRestaurant\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Me.Me-PC\Desktop\restaurant\ManageRestaurant\DAL\obj\Debug\DAL.dll
+C:\Users\Me.Me-PC\Desktop\restaurant\ManageRestaurant\DAL\obj\Debug\DAL.pdb
+C:\Users\NoName\Desktop\restaurant (1)\restaurant\ManageRestaurant\DAL\bin\Debug\DAL.dll.config
+C:\Users\NoName\Desktop\restaurant (1)\restaurant\ManageRestaurant\DAL\bin\Debug\DAL.dll
+C:\Users\NoName\Desktop\restaurant (1)\restaurant\ManageRestaurant\DAL\bin\Debug\DAL.pdb
+C:\Users\NoName\Desktop\restaurant (1)\restaurant\ManageRestaurant\DAL\bin\Debug\EntityFramework.dll
+C:\Users\NoName\Desktop\restaurant (1)\restaurant\ManageRestaurant\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\NoName\Desktop\restaurant (1)\restaurant\ManageRestaurant\DAL\bin\Debug\EntityFramework.xml
+C:\Users\NoName\Desktop\restaurant (1)\restaurant\ManageRestaurant\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\NoName\Desktop\restaurant (1)\restaurant\ManageRestaurant\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\NoName\Desktop\restaurant (1)\restaurant\ManageRestaurant\DAL\obj\Debug\DAL.dll
+C:\Users\NoName\Desktop\restaurant (1)\restaurant\ManageRestaurant\DAL\obj\Debug\DAL.pdb

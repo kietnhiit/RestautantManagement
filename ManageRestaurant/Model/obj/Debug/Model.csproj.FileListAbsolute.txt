@@ -1,0 +1,4 @@
+C:\Users\Me.Me-PC\Desktop\restaurant\ManageRestaurant\Model\bin\Debug\Model.dll
+C:\Users\Me.Me-PC\Desktop\restaurant\ManageRestaurant\Model\bin\Debug\Model.pdb
+C:\Users\Me.Me-PC\Desktop\restaurant\ManageRestaurant\Model\obj\Debug\Model.dll
+C:\Users\Me.Me-PC\Desktop\restaurant\ManageRestaurant\Model\obj\Debug\Model.pdb
