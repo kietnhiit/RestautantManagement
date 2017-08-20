@@ -32,5 +32,9 @@ namespace BLL
             if (e != null) return eDAL.UpdateProduct(e);
             return false;
         }
+        public Product GetProductByID(int id)
+        {
+             return eDAL.GetProductByID(id);
+        }
     }
 }

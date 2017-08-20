@@ -33,3 +33,14 @@ C:\Users\NoName\Desktop\RestautantManagement\ManageRestaurant\BLL\bin\Debug\Enti
 C:\Users\NoName\Desktop\RestautantManagement\ManageRestaurant\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 C:\Users\NoName\Desktop\RestautantManagement\ManageRestaurant\BLL\obj\Debug\BLL.dll
 C:\Users\NoName\Desktop\RestautantManagement\ManageRestaurant\BLL\obj\Debug\BLL.pdb
+C:\Users\kietnhi\Desktop\RestautantManagement\ManageRestaurant\BLL\bin\Debug\BLL.dll
+C:\Users\kietnhi\Desktop\RestautantManagement\ManageRestaurant\BLL\bin\Debug\BLL.pdb
+C:\Users\kietnhi\Desktop\RestautantManagement\ManageRestaurant\BLL\bin\Debug\DAL.dll
+C:\Users\kietnhi\Desktop\RestautantManagement\ManageRestaurant\BLL\bin\Debug\Model.dll
+C:\Users\kietnhi\Desktop\RestautantManagement\ManageRestaurant\BLL\bin\Debug\EntityFramework.dll
+C:\Users\kietnhi\Desktop\RestautantManagement\ManageRestaurant\BLL\bin\Debug\DAL.pdb
+C:\Users\kietnhi\Desktop\RestautantManagement\ManageRestaurant\BLL\bin\Debug\Model.pdb
+C:\Users\kietnhi\Desktop\RestautantManagement\ManageRestaurant\BLL\bin\Debug\EntityFramework.xml
+C:\Users\kietnhi\Desktop\RestautantManagement\ManageRestaurant\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\kietnhi\Desktop\RestautantManagement\ManageRestaurant\BLL\obj\Debug\BLL.dll
+C:\Users\kietnhi\Desktop\RestautantManagement\ManageRestaurant\BLL\obj\Debug\BLL.pdb

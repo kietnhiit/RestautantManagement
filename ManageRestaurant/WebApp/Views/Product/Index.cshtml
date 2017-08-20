@@ -12,6 +12,9 @@
 <table class="table">
     <tr>
         <th>
+            Number
+        </th>
+        <th>
             @Html.DisplayNameFor(model => model.Area.Area1)
         </th>
         <th>
@@ -22,15 +25,23 @@
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Prices)
+                (VND)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.ExportPrice)
+            (VND)
         </th>
         <th></th>
     </tr>
-
+    @{
+        int temp = 0;
+    }
 @foreach (var item in Model) {
+    temp++;
     <tr>
+        <td>
+            @temp
+        </td>
         <td>
             @Html.DisplayFor(modelItem => item.Area.Area1)
         </td>
@@ -47,7 +58,7 @@
             @Html.DisplayFor(modelItem => item.ExportPrice)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ProductID })
+            @Html.ActionLink("Edit", "Update", new { id=item.ProductID })
         </td>
     </tr>
 }

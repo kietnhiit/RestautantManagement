@@ -42,7 +42,7 @@ namespace DAL
                 return false;
             }
         }
-        public Product GetProductByID(string id)
+        public Product GetProductByID(int id)
         {
             try
             {
@@ -51,7 +51,7 @@ namespace DAL
             }
             catch
             {
-                return null;
+                throw;
             }
         }
 
