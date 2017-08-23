@@ -11,23 +11,33 @@
     @*@Html.ActionLink("Create New", "Add", new { @class = "btn btn-primary"})*@
     <a href="@Url.Action("Add", "TypeOfEmployee")" class="btn btn-primary">Create New</a>
 </p>
-<table class="table table-hover">
-    <tr>
-        <th>@Html.DisplayNameFor(model => model.NameOfType)</th>
-    </tr>
-
-@foreach (var item in Model) {
-    <tr>
-
-        <td>
-            @Html.DisplayFor(modelItem => item.NameOfType)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Update", new { id = item.TypeID }) |
-            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-        </td>
-    </tr>
-}
-
+<table class="table table-bordered table-hover table-responsive" id="t">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NameOfType)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NameOfType)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Update", new { id = item.TypeID }) |
+                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                </td>
+            </tr>
+        }
+    </tbody>
 </table>
+@section scripts {
+    $(function(){
+    $('#t').DataTable();
+    });
+}

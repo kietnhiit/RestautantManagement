@@ -38,3 +38,13 @@ C:\Users\kietnhi\Desktop\RestautantManagement\ManageRestaurant\DAL\bin\Debug\Ent
 C:\Users\kietnhi\Desktop\RestautantManagement\ManageRestaurant\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 C:\Users\kietnhi\Desktop\RestautantManagement\ManageRestaurant\DAL\obj\Debug\DAL.dll
 C:\Users\kietnhi\Desktop\RestautantManagement\ManageRestaurant\DAL\obj\Debug\DAL.pdb
+D:\OJT\Restaurant\RestautantManagement\ManageRestaurant\DAL\bin\Debug\DAL.dll.config
+D:\OJT\Restaurant\RestautantManagement\ManageRestaurant\DAL\bin\Debug\DAL.dll
+D:\OJT\Restaurant\RestautantManagement\ManageRestaurant\DAL\bin\Debug\DAL.pdb
+D:\OJT\Restaurant\RestautantManagement\ManageRestaurant\DAL\bin\Debug\EntityFramework.dll
+D:\OJT\Restaurant\RestautantManagement\ManageRestaurant\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\OJT\Restaurant\RestautantManagement\ManageRestaurant\DAL\bin\Debug\EntityFramework.xml
+D:\OJT\Restaurant\RestautantManagement\ManageRestaurant\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\OJT\Restaurant\RestautantManagement\ManageRestaurant\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\OJT\Restaurant\RestautantManagement\ManageRestaurant\DAL\obj\Debug\DAL.dll
+D:\OJT\Restaurant\RestautantManagement\ManageRestaurant\DAL\obj\Debug\DAL.pdb

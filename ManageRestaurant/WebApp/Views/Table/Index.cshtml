@@ -4,31 +4,51 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Admin.cshtml";
 }
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Supplier</title>
+</head>
+<body>
+    <form>
+        <div class="form-group">
+            <label></label>
+            <h4>Supplier</h4>
+            <hr />
+            <input type="button" class="btn btn-info" value="Add Supplier" onclick="location.href='@Url.Action("Create New", "Add")'" />
+        </div>
+        <table class="table table-bordered" id="t">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Area)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Area)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Edit", "Update", new { id = item.TableID }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.TableID })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
+@section scripts {
+    $(function(){
+    $('#t').DataTable();
+    });
 }
-
-<h2>Index</h2>
-
-<p>
-    @Html.ActionLink("Create New", "Add")
-</p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Area)
-        </th>
-        <th></th>
-    </tr>
-
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Area)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Update", new { id=item.TableID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.TableID })
-        </td>
-    </tr>
-}
-
-</table>
