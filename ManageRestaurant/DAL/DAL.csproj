@@ -64,6 +64,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RestaurantDB.cs" />
     <Compile Include="Table.cs" />
+    <Compile Include="TableDAL.cs" />
     <Compile Include="TypeOfEmployee.cs" />
     <Compile Include="TypeOfEmployeeDAL.cs" />
   </ItemGroup>

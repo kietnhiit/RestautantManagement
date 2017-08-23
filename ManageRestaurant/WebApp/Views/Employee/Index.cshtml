@@ -1,7 +1,8 @@
-﻿@model IEnumerable<DAL.Employee>
+﻿@model IEnumerable<WebApp.Models.EmployeeViewModel>
 
 @{
     ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Admin.cshtml";
 }
 
 <h2>Index</h2>
@@ -11,10 +12,11 @@
 </p>
 <table class="table">
     <tr>
+        
         <th>
             @Html.DisplayNameFor(model => model.Username)
         </th>
-       
+        
         <th>
             @Html.DisplayNameFor(model => model.FirstName)
         </th>
@@ -31,7 +33,7 @@
             @Html.DisplayNameFor(model => model.Phone)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.TypeID)
+            @Html.DisplayNameFor(model => model.TypeName)
         </th>
         <th></th>
     </tr>
@@ -41,7 +43,6 @@
         <td>
             @Html.DisplayFor(modelItem => item.Username)
         </td>
-      
         <td>
             @Html.DisplayFor(modelItem => item.FirstName)
         </td>
@@ -49,7 +50,7 @@
             @Html.DisplayFor(modelItem => item.LastName)
         </td>
         <td>
-            @Html.Raw(item.Gender?"Nam":"Nữ")
+            @Html.Raw(item.Gender ? "Nam" : "Nữ")
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Address)
@@ -58,10 +59,10 @@
             @Html.DisplayFor(modelItem => item.Phone)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.TypeID)
+            @Html.DisplayFor(modelItem => item.TypeName)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Update", new { id=item.EmployeeID })
+            @Html.ActionLink("Edit", "Update", new { id = item.EmployeeID }) 
         </td>
     </tr>
 }

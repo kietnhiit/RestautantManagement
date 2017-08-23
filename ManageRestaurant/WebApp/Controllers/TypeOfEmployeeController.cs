@@ -22,5 +22,44 @@ namespace WebApp.Controllers
             List<TypeOfEmployeeBLL> list = rsdal.GetAllType();
             return View(list);
         }
+
+        public ActionResult Add()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+
+        public ActionResult Add(TypeOfEmployeeBLL model)
+        {
+            if (ModelState.IsValid)
+            {
+                var ct = new TypeOfEmployeeBLL
+                {
+                    TypeID = model.TypeID,
+                    NameOfType = model.NameOfType
+                };
+
+                //cbo.AddCategory(ct);
+                rsdal.AddTypeOfEmployee(ct);
+
+                return RedirectToAction("Index");
+            }
+            return View(model);
+        }
+
+        public ActionResult Update(int id)
+        {
+            TypeOfEmployeeBLL type = rsdal.GetTypeById(id);
+            return View(type);
+        }
+        [HttpPost]
+        public ActionResult Update(TypeOfEmployeeBLL e)
+        {
+            rsdal.UpdateTypeOfEmployee(e);
+            return RedirectToAction("Index");
+        }
+
     }
 }

@@ -21,7 +21,7 @@ namespace DAL
                 TypeOfEmployeeBLL type = db.TypeOfEmployees.Find(id);
                 return type;
             }
-            catch (Exception e)
+            catch
             {
                 return null;
             }

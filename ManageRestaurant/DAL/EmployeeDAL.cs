@@ -42,7 +42,7 @@ namespace DAL
                 return false;
             }
         }
-        public Employee GetEmployeeByID(string id)
+        public Employee GetEmployeeByID(int id)
         {
             try
             {

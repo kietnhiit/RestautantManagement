@@ -15,7 +15,7 @@ namespace BLL
         {
             eDAL = new EmployeeDAL();
         }
-        public eEmployee getEmployeeByID(string id)
+        public eEmployee getEmployeeByID(int id)
         {
             if (id != null)
             {
