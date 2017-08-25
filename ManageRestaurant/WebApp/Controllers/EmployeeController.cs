@@ -3,74 +3,118 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using DAL;
 using WebApp.Models;
+using System.Net.Http;
+
 namespace WebApp.Controllers
 {
     public class EmployeeController : Controller
     {
-        
-        EmployeeDAL eDAL;
-        TypeOfEmployeeDAL tDAL;
-        
+        HttpClient client;
         public EmployeeController()
         {
-            eDAL = new EmployeeDAL();
-            tDAL = new TypeOfEmployeeDAL();
+            client = new HttpClient();
+            
         }
         // GET: Employee
         public ActionResult Index()
         {
-            List<Employee> list = eDAL.GetAllEmployee();
-            List<EmployeeViewModel> liste = new List<EmployeeViewModel>();
-            foreach(Employee e in list)
+            IEnumerable<EmployeeViewModel> lst = null;
+            client.BaseAddress = new Uri("http://localhost:1523/api/");
+            var responseTask = client.GetAsync("Employee");
+            responseTask.Wait();
+            var result = responseTask.Result;
+            if(result.IsSuccessStatusCode)
             {
-                EmployeeViewModel evm = new EmployeeViewModel();
-                evm.EmployeeID = e.EmployeeID;
-                evm.Address = e.Address;
-                evm.FirstName = e.FirstName;
-                evm.Gender = e.Gender;
-                evm.LastName = e.LastName;
-                evm.Password = e.Password;
-                evm.Phone = e.Phone;
-                evm.TypeName = tDAL.GetTypeById(e.TypeID).NameOfType;
-                evm.Username = e.Username;
-                liste.Add(evm);
+                var readTask = result.Content.ReadAsAsync<IList<EmployeeViewModel>>();
+                readTask.Wait();
+                lst = readTask.Result;
             }
-            return View(liste);
+            else
+            {
+                lst = Enumerable.Empty<EmployeeViewModel>();
+                ModelState.AddModelError(string.Empty, "Server error");
+            }
+            return View(lst);
+            
         }
+        
         public ActionResult Add()
         {
-            List<TypeOfEmployeeBLL> list = tDAL.GetAllType();
+        /*    List<TypeOfEmployeeBLL> list = tDAL.GetAllType();
             ViewBag.SelectList = list.Select(r => new SelectListItem()
             {
                 Value = r.TypeID.ToString(),
                 Text = r.NameOfType
-            }).ToList();
-            return View("Add", new Employee());
+            }).ToList();*/
+            return View();
         }
         [HttpPost]
-        public ActionResult Add(Employee e)
+        public ActionResult Add(EmployeeViewModel e)
         {
-           if(eDAL.AddEmployee(e))   return RedirectToAction("Index");
-            ModelState.AddModelError("UserName", "This Username existed");
+            client.BaseAddress = new Uri("http://localhost:1523/api/Employee");
+            var postTask = client.PostAsJsonAsync<EmployeeViewModel>("Employee", e);
+            postTask.Wait();
+            var result = postTask.Result;
+                
+            if (result.IsSuccessStatusCode)   return RedirectToAction("Index");
+            ModelState.AddModelError(string.Empty, "This Username existed");
             return View(e);
         }
-        public ActionResult Update(int id)
+        
+        public ActionResult Update(string id)
         {
-            Employee e = eDAL.GetEmployeeByID(id);
-            List<TypeOfEmployeeBLL> list = tDAL.GetAllType();
+            EmployeeViewModel e = null;
+            client.BaseAddress = new Uri("http://localhost:1523/api/");
+            var responseTask = client.GetAsync("Employee?id=" + id);
+            responseTask.Wait();
+            var result=responseTask.Result;
+            if (result.IsSuccessStatusCode)
+            {
+                var readTask = result.Content.ReadAsAsync<EmployeeViewModel>();
+                readTask.Wait();
+                e = readTask.Result;
+            }
+          /*  List<TypeOfEmployeeBLL> list = tDAL.GetAllType();
             ViewBag.SelectList = list.Select(r => new SelectListItem()
             {
                 Value = r.TypeID.ToString(),
                 Text = r.NameOfType
-            }).ToList();
+            }).ToList();*/
             return View(e);
         }
         [HttpPost]
-        public ActionResult Update(Employee e)
+        public ActionResult Update(EmployeeViewModel e)
         {
-            eDAL.UpdateEmployee(e);
+            client.BaseAddress = new Uri("http://localhost:1523/api/");
+            var putTask = client.PutAsJsonAsync<EmployeeViewModel>("Employee", e);
+            putTask.Wait();
+            var result = putTask.Result;
+            if(result.IsSuccessStatusCode)  return RedirectToAction("Index");
+            return View(e);
+        }
+        public ActionResult Delete(int id)
+        {
+            EmployeeViewModel e = null;
+            client.BaseAddress = new Uri("http://localhost:1523/api/");
+            var responseTask = client.GetAsync("Employee?id=" + id);
+            responseTask.Wait();
+            var result = responseTask.Result;
+            if (result.IsSuccessStatusCode)
+            {
+                var readTask = result.Content.ReadAsAsync<EmployeeViewModel>();
+                readTask.Wait();
+                e = readTask.Result;
+            }
+            return View();
+        }
+        [HttpPost]
+        public ActionResult Delete1(string id)
+        {
+            client.BaseAddress = new Uri("http://localhost:1523/api/");
+            var deleteTask = client.DeleteAsync("Employee/" + id);
+            deleteTask.Wait();
+            var result = deleteTask.Result;
             return RedirectToAction("Index");
         }
     }

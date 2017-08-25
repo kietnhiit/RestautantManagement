@@ -55,3 +55,14 @@ D:\OJT\Restaurant\RestautantManagement\ManageRestaurant\BLL\bin\Debug\EntityFram
 D:\OJT\Restaurant\RestautantManagement\ManageRestaurant\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 D:\OJT\Restaurant\RestautantManagement\ManageRestaurant\BLL\obj\Debug\BLL.dll
 D:\OJT\Restaurant\RestautantManagement\ManageRestaurant\BLL\obj\Debug\BLL.pdb
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\BLL\bin\Debug\BLL.dll
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\BLL\bin\Debug\BLL.pdb
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\BLL\bin\Debug\DAL.dll
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\BLL\bin\Debug\Model.dll
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\BLL\bin\Debug\DAL.pdb
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\BLL\bin\Debug\Model.pdb
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\BLL\obj\Debug\BLL.dll
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\BLL\obj\Debug\BLL.pdb

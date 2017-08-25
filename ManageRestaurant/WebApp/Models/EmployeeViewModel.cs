@@ -16,17 +16,19 @@ namespace WebApp.Models
 
         [Required]
         [StringLength(50)]
-      
+        [DataType(DataType.Password)]
         public string Password { get; set; }
         [Required]
         [StringLength(50)]
+        [DataType(DataType.Password)]
         [Compare("Password")]
+        [Display(Name ="Retype of Password")]
         public string RePassword { get; set; }
-
+        [Display(Name = "First Name")]
         [Required]
         [StringLength(50)]
         public string FirstName { get; set; }
-
+        [Display(Name = "Last Name")]
         [Required]
         [StringLength(50)]
         public string LastName { get; set; }
@@ -41,7 +43,7 @@ namespace WebApp.Models
         public string Phone { get; set; }
 
         public int TypeID { get; set; }
-
+        [Display(Name = "Type")]
         public string TypeName { get; set; }
         
     }

@@ -25,9 +25,6 @@ namespace DAL
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Employee>()
-                .Property(e => e.Password)
-                .IsFixedLength();
 
            
 

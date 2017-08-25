@@ -48,3 +48,31 @@ D:\OJT\Restaurant\RestautantManagement\ManageRestaurant\DAL\bin\Debug\EntityFram
 D:\OJT\Restaurant\RestautantManagement\ManageRestaurant\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 D:\OJT\Restaurant\RestautantManagement\ManageRestaurant\DAL\obj\Debug\DAL.dll
 D:\OJT\Restaurant\RestautantManagement\ManageRestaurant\DAL\obj\Debug\DAL.pdb
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\DAL\bin\Debug\DAL.dll.config
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\DAL\bin\Debug\DAL.dll
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\DAL\bin\Debug\DAL.pdb
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\DAL\obj\Debug\DAL.dll
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\DAL\obj\Debug\DAL.pdb
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\DAL\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\DAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\DAL\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\DAL\bin\Debug\DAL.dll.config
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\DAL\bin\Debug\DAL.dll
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\DAL\bin\Debug\DAL.pdb
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\DAL\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\DAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\DAL\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\DAL\obj\Debug\DAL.dll
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\DAL\obj\Debug\DAL.pdb

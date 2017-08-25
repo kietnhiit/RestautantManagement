@@ -1,0 +1,64 @@
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\roslyn\csc.exe
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\roslyn\vbc.exe
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\roslyn\VBCSCompiler.exe
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\Services.dll.config
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\Services.dll
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\Services.pdb
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\DAL.dll
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\Newtonsoft.Json.dll
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\System.Net.Http.Formatting.dll
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\System.Web.Http.dll
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\System.Web.Http.WebHost.dll
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\EntityFramework.dll
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\DAL.pdb
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\Newtonsoft.Json.xml
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\System.Net.Http.Formatting.xml
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\System.Web.Http.xml
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\System.Web.Http.WebHost.xml
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\bin\EntityFramework.xml
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\obj\Debug\Services.dll
+C:\Users\Me.Me-PC\Desktop\New folder (4)\RestautantManagement\ManageRestaurant\Services\obj\Debug\Services.pdb
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\roslyn\csc.exe
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\roslyn\vbc.exe
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\roslyn\VBCSCompiler.exe
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\Services.dll.config
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\Services.dll
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\Services.pdb
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\DAL.dll
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\Newtonsoft.Json.dll
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\System.Net.Http.Formatting.dll
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\System.Web.Http.dll
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\System.Web.Http.WebHost.dll
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\EntityFramework.dll
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\DAL.pdb
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\Newtonsoft.Json.xml
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\System.Net.Http.Formatting.xml
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\System.Web.Http.xml
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\System.Web.Http.WebHost.xml
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\bin\EntityFramework.xml
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\obj\Debug\Services.dll
+C:\Users\Me.Me-PC\Desktop\RestautantManagement\ManageRestaurant\Services\obj\Debug\Services.pdb

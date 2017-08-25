@@ -67,5 +67,24 @@ namespace DAL
                 throw;
             }
         }
+        public bool DeleteEmployee(int id)
+        {
+            try
+            {
+                Employee ep = db.Employees.Find(id);
+                if(ep!=null)
+                {
+                    db.Employees.Remove(ep);
+                    db.SaveChanges();
+                    return true;
+                }
+                return false;
+
+            }
+            catch
+            {
+                return false;
+            }
+        }
     }
 }
