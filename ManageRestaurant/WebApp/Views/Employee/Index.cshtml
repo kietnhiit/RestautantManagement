@@ -1,11 +1,11 @@
 ﻿@model IEnumerable<WebApp.Models.EmployeeViewModel>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "List of Employees";
     Layout = "~/Views/Shared/_Admin.cshtml";
 }
 
-<h2>Index</h2>
+<h2>Employees</h2>
 
 <p>
     <a href="@Url.Action("Add", "Employee")" class="btn btn-primary">Create New</a>
@@ -64,7 +64,9 @@
                     @Html.DisplayFor(modelItem => item.TypeName)
                 </td>
                 <td>
-                    @Html.ActionLink("Edit", "Update", new { id = item.EmployeeID })
+                    @Html.ActionLink("Edit", "Update", new { id = item.EmployeeID })|
+
+                    @Html.ActionLink("Delete", "Delete", new { id = item.EmployeeID })
                 </td>
             </tr>
         }

@@ -59,7 +59,7 @@ namespace BLL
                 }
                 return false;
             }
-            catch (Exception e)
+            catch (Exception )
             {
                 throw;
             }

@@ -15,7 +15,7 @@ namespace DAL
         public virtual DbSet<Area> Areas { get; set; }
         public virtual DbSet<Division> Divisions { get; set; }
         public virtual DbSet<Employee> Employees { get; set; }
-        public virtual DbSet<Formula> Formulae { get; set; }
+        public virtual DbSet<Formula> Formulas { get; set; }
         public virtual DbSet<Order> Orders { get; set; }
         public virtual DbSet<OrderDetail> OrderDetails { get; set; }
         public virtual DbSet<Product> Products { get; set; }
@@ -25,9 +25,6 @@ namespace DAL
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Employee>()
-                .Property(e => e.Password)
-                .IsFixedLength();
 
            
 

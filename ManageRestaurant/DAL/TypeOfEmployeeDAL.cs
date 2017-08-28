@@ -34,7 +34,7 @@ namespace DAL
                 List<TypeOfEmployeeBLL> list = db.TypeOfEmployees.ToList();
                 return list;
             }
-            catch (Exception e)
+            catch (Exception )
             {
                 throw;
             }
@@ -48,7 +48,7 @@ namespace DAL
                 db.SaveChanges();
                 return true;
             }
-            catch (Exception e)
+            catch (Exception )
             {
                 return false;
             }
@@ -64,6 +64,26 @@ namespace DAL
                 return true;
             }
             catch (Exception)
+            {
+                return false;
+            }
+        }
+
+        public bool DeleteTypeEmployee(int id)
+        {
+            try
+            {
+                TypeOfEmployeeBLL type = db.TypeOfEmployees.Find(id);
+                if (type != null)
+                {
+                    db.TypeOfEmployees.Remove(type);
+                    db.SaveChanges();
+                    return true;
+                }
+                return false;
+
+            }
+            catch
             {
                 return false;
             }

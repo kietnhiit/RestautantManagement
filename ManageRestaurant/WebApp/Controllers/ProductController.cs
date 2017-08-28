@@ -3,18 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using BLL;
 using DAL;
 
 namespace WebApp.Controllers
 {
     public class ProductController : Controller
     {
-        ProductBLL pdbll = new ProductBLL();
+        ProductDAL pdbll = new ProductDAL();
         RestaurantDB db = new RestaurantDB();
         public ActionResult Index()
         {
-            return View(pdbll.getAllProduct());
+            return View(pdbll.GetAllProduct());
         }
 
         public ActionResult Create()

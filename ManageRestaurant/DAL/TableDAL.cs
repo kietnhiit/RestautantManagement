@@ -75,7 +75,7 @@ namespace DAL
             try
             {
                 Table odd = db.Tables.Find(id);
-                if (id != null)
+                if (id > -1)
                 {
                     db.Tables.Remove(odd);
                     db.SaveChanges();
