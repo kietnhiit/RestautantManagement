@@ -65,7 +65,9 @@
     <Compile Include="EmployeeDAL.cs" />
     <Compile Include="Formula.cs" />
     <Compile Include="Order.cs" />
+    <Compile Include="OrderDAL.cs" />
     <Compile Include="OrderDetail.cs" />
+    <Compile Include="OrderDetailDAL.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="ProductDAL.cs" />
     <Compile Include="ProductDetail.cs" />
@@ -77,7 +79,9 @@
     <Compile Include="TypeOfEmployeeDAL.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

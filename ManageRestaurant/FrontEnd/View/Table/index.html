@@ -1,0 +1,656 @@
+﻿<div class="main-content-inner">
+    <div class="breadcrumbs ace-save-state" id="breadcrumbs">
+        <ul class="breadcrumb">
+            <li>
+                <i class="ace-icon fa fa-home home-icon"></i>
+                <a href="#">Home</a>
+            </li>
+            <li class="active">Quản lý Table</li>
+        </ul><!-- /.breadcrumb -->
+    </div>
+
+    <div class="page-content">
+        <div class="nav-search pull-right" id="nav-search">
+            <!-- <form class="form-search" action="kk" method="get">
+                <span class="input-icon">
+                    <input type="number" placeholder="Nhập mã bài viết ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+                    <i class="ace-icon fa fa-search nav-search-icon"></i>
+                </span>
+            </form> -->
+            <div class="col-md-9" style="margin-top: 10px;">
+                <a href="them-bai-viet" class="btn btn-info">
+                    <i class="ace-icon fa fa-check bigger-110"></i>
+                    Đăng bài viết
+                </a>
+            </div>
+        </div><!-- /.nav-search -->
+        <h1>
+            <small>
+                <i class="ace-icon fa fa-angle-double-right"></i>
+                Quản lý bài viết
+            </small>
+        </h1>
+
+        <div class="page-header">
+        </div><!-- /.page-header -->
+
+        <div class="row">
+            <div class="col-xs-12">
+                <!-- PAGE CONTENT BEGINS -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="clearfix">
+                            <div class="pull-right tableTools-container"></div>
+                        </div>
+                        <div class="table-header">
+                            Danh sách bài viết
+                        </div>
+                        <table id="tbl" class="table  table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                    <th class="center">
+                                        <label class="pos-rel">
+                                            STT
+                                        </label>
+                                    </th>
+                                    <th>Tiêu đề</th>
+                                    <th>Ngày đăng</th>
+                                    <th>Nội dung tóm lược</th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+
+                                <tr>
+                                    <td class="center">
+                                        <label class="pos-rel">
+                                            1
+                                        </label>
+                                    </td>
+                                    <td><a href="/nhatro/baiviet?id=2" target="blank">Gia đình Hà Nội thử nghiệm trồng lúa trong nhà</a></td>
+                                    <td>
+                                        2017-07-28
+                                    </td>
+
+                                    <td>
+                                        <p style="text-align:center">Đ&acirc;y l&agrave; loại cỏ l&uacute;a mỳ, d&ugrave;ng để &eacute;p nướ ...
+                                    </td>
+                                    <td>
+                                        <div class="hidden-sm hidden-xs">
+                                            <a href="suabaiviet?id=2">
+                                                <i class="ace-icon fa fa-edit bigger-130"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="hidden-sm hidden-xs">
+                                            <a data-toggle="modal" data-target="#2" class="red" href="#">
+                                                <i class="ace-icon fa fa-trash-o bigger-130"></i>
+                                            </a>
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                            <h4 class="red" class="modal-title">Xác nhận xóa</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <span>Bạn có muốn xóa bài viết: <h5 style="color: blue;"> <a href="/nhatro/baiviet?id=2" target="blank">Gia đình Hà Nội thử nghiệm trồng lúa trong nhà</a></h5></span>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Không</button>
+                                                            <a type="button" href="xoabaiviet?id=2" class="btn btn-danger">Có</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="center">
+                                        <label class="pos-rel">
+                                            2
+                                        </label>
+                                    </td>
+                                    <td><a href="/nhatro/baiviet?id=3" target="blank">Nhà một tầng đẹp không tì vết của cặp vợ chồng trẻ ở Tây Nguyên</a></td>
+                                    <td>
+                                        2017-07-28
+                                    </td>
+
+                                    <td>
+                                        <p style="text-align:center"><strong>Kiến tr&uacute;c sư đ&atilde; sắp xếp c&aacute;c kh&ocirc;ng gi ...
+                                    </td>
+                                    <td>
+                                        <div class="hidden-sm hidden-xs">
+                                            <a href="suabaiviet?id=3">
+                                                <i class="ace-icon fa fa-edit bigger-130"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="hidden-sm hidden-xs">
+                                            <a data-toggle="modal" data-target="#3" class="red" href="#">
+                                                <i class="ace-icon fa fa-trash-o bigger-130"></i>
+                                            </a>
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                            <h4 class="red" class="modal-title">Xác nhận xóa</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <span>Bạn có muốn xóa bài viết: <h5 style="color: blue;"> <a href="/nhatro/baiviet?id=3" target="blank">Nhà một tầng đẹp không tì vết của cặp vợ chồng trẻ ở Tây Nguyên</a></h5></span>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Không</button>
+                                                            <a type="button" href="xoabaiviet?id=3" class="btn btn-danger">Có</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="center">
+                                        <label class="pos-rel">
+                                            3
+                                        </label>
+                                    </td>
+                                    <td><a href="/nhatro/baiviet?id=4" target="blank">Phong cách tối giản hiện đại của Nhật Bản</a></td>
+                                    <td>
+                                        2017-07-29
+                                    </td>
+
+                                    <td>
+                                        <p style="text-align:center">Trong kh&ocirc;ng gian được thiết kế tối giản sẽ kh&ocirc;ng bao giờ c& ...
+                                    </td>
+                                    <td>
+                                        <div class="hidden-sm hidden-xs">
+                                            <a href="suabaiviet?id=4">
+                                                <i class="ace-icon fa fa-edit bigger-130"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="hidden-sm hidden-xs">
+                                            <a data-toggle="modal" data-target="#4" class="red" href="#">
+                                                <i class="ace-icon fa fa-trash-o bigger-130"></i>
+                                            </a>
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                            <h4 class="red" class="modal-title">Xác nhận xóa</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <span>Bạn có muốn xóa bài viết: <h5 style="color: blue;"> <a href="/nhatro/baiviet?id=4" target="blank">Phong cách tối giản hiện đại của Nhật Bản</a></h5></span>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Không</button>
+                                                            <a type="button" href="xoabaiviet?id=4" class="btn btn-danger">Có</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="center">
+                                        <label class="pos-rel">
+                                            4
+                                        </label>
+                                    </td>
+                                    <td><a href="/nhatro/baiviet?id=5" target="blank">Nhà đẹp phong cách với cửa trượt hiện đại</a></td>
+                                    <td>
+                                        2017-07-29
+                                    </td>
+
+                                    <td>
+                                        <p style="text-align:center">Ngo&agrave;i t&iacute;nh năng gi&uacute;p tiết kiệm kh&ocirc;ng gian, c ...
+                                    </td>
+                                    <td>
+                                        <div class="hidden-sm hidden-xs">
+                                            <a href="suabaiviet?id=5">
+                                                <i class="ace-icon fa fa-edit bigger-130"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="hidden-sm hidden-xs">
+                                            <a data-toggle="modal" data-target="#5" class="red" href="#">
+                                                <i class="ace-icon fa fa-trash-o bigger-130"></i>
+                                            </a>
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                            <h4 class="red" class="modal-title">Xác nhận xóa</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <span>Bạn có muốn xóa bài viết: <h5 style="color: blue;"> <a href="/nhatro/baiviet?id=5" target="blank">Nhà đẹp phong cách với cửa trượt hiện đại</a></h5></span>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Không</button>
+                                                            <a type="button" href="xoabaiviet?id=5" class="btn btn-danger">Có</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="center">
+                                        <label class="pos-rel">
+                                            5
+                                        </label>
+                                    </td>
+                                    <td><a href="/nhatro/baiviet?id=6" target="blank">Thiết kế sàn nhà 3D tuyệt đẹp</a></td>
+                                    <td>
+                                        2017-07-29
+                                    </td>
+
+                                    <td>
+                                        <p style="text-align:center">Gỗ l&agrave; một trong những vật liệu phổ biến thường được sử dụng cho  ...
+                                    </td>
+                                    <td>
+                                        <div class="hidden-sm hidden-xs">
+                                            <a href="suabaiviet?id=6">
+                                                <i class="ace-icon fa fa-edit bigger-130"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="hidden-sm hidden-xs">
+                                            <a data-toggle="modal" data-target="#6" class="red" href="#">
+                                                <i class="ace-icon fa fa-trash-o bigger-130"></i>
+                                            </a>
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                            <h4 class="red" class="modal-title">Xác nhận xóa</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <span>Bạn có muốn xóa bài viết: <h5 style="color: blue;"> <a href="/nhatro/baiviet?id=6" target="blank">Thiết kế sàn nhà 3D tuyệt đẹp</a></h5></span>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Không</button>
+                                                            <a type="button" href="xoabaiviet?id=6" class="btn btn-danger">Có</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="center">
+                                        <label class="pos-rel">
+                                            6
+                                        </label>
+                                    </td>
+                                    <td><a href="/nhatro/baiviet?id=7" target="blank">“Cùng nhau kiến tạo tương lai”</a></td>
+                                    <td>
+                                        2017-07-29
+                                    </td>
+
+                                    <td>
+                                        <p style="text-align:center"><strong>USG Boral Việt Nam vừa c&ocirc;ng bố kế hoạch tăng trưởng 5 năm ...
+                                    </td>
+                                    <td>
+                                        <div class="hidden-sm hidden-xs">
+                                            <a href="suabaiviet?id=7">
+                                                <i class="ace-icon fa fa-edit bigger-130"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="hidden-sm hidden-xs">
+                                            <a data-toggle="modal" data-target="#7" class="red" href="#">
+                                                <i class="ace-icon fa fa-trash-o bigger-130"></i>
+                                            </a>
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                            <h4 class="red" class="modal-title">Xác nhận xóa</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <span>Bạn có muốn xóa bài viết: <h5 style="color: blue;"> <a href="/nhatro/baiviet?id=7" target="blank">“Cùng nhau kiến tạo tương lai”</a></h5></span>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Không</button>
+                                                            <a type="button" href="xoabaiviet?id=7" class="btn btn-danger">Có</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="center">
+                                        <label class="pos-rel">
+                                            7
+                                        </label>
+                                    </td>
+                                    <td><a href="/nhatro/baiviet?id=8" target="blank">Giường treo – Xu hướng thiết kế nổi bật trong 2017</a></td>
+                                    <td>
+                                        2017-07-29
+                                    </td>
+
+                                    <td>
+                                        <p style="text-align:center">Ngo&agrave;i giường gỗ, giường sắt, giường tầng th&igrave; nay c&aacute ...
+                                    </td>
+                                    <td>
+                                        <div class="hidden-sm hidden-xs">
+                                            <a href="suabaiviet?id=8">
+                                                <i class="ace-icon fa fa-edit bigger-130"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="hidden-sm hidden-xs">
+                                            <a data-toggle="modal" data-target="#8" class="red" href="#">
+                                                <i class="ace-icon fa fa-trash-o bigger-130"></i>
+                                            </a>
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                            <h4 class="red" class="modal-title">Xác nhận xóa</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <span>Bạn có muốn xóa bài viết: <h5 style="color: blue;"> <a href="/nhatro/baiviet?id=8" target="blank">Giường treo – Xu hướng thiết kế nổi bật trong 2017</a></h5></span>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Không</button>
+                                                            <a type="button" href="xoabaiviet?id=8" class="btn btn-danger">Có</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="center">
+                                        <label class="pos-rel">
+                                            8
+                                        </label>
+                                    </td>
+                                    <td><a href="/nhatro/baiviet?id=9" target="blank">TP HCM nghiên cứu 4 phương án mở rộng Tân Sơn Nhất</a></td>
+                                    <td>
+                                        2017-07-29
+                                    </td>
+
+                                    <td>
+                                        <p style="text-align:center"><strong>Ngo&agrave;i phản biện việc mở rộng s&acirc;n bay T&acirc;n Sơn ...
+                                    </td>
+                                    <td>
+                                        <div class="hidden-sm hidden-xs">
+                                            <a href="suabaiviet?id=9">
+                                                <i class="ace-icon fa fa-edit bigger-130"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="hidden-sm hidden-xs">
+                                            <a data-toggle="modal" data-target="#9" class="red" href="#">
+                                                <i class="ace-icon fa fa-trash-o bigger-130"></i>
+                                            </a>
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                            <h4 class="red" class="modal-title">Xác nhận xóa</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <span>Bạn có muốn xóa bài viết: <h5 style="color: blue;"> <a href="/nhatro/baiviet?id=9" target="blank">TP HCM nghiên cứu 4 phương án mở rộng Tân Sơn Nhất</a></h5></span>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Không</button>
+                                                            <a type="button" href="xoabaiviet?id=9" class="btn btn-danger">Có</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="center">
+                                        <label class="pos-rel">
+                                            9
+                                        </label>
+                                    </td>
+                                    <td><a href="/nhatro/baiviet?id=10" target="blank">Ý tưởng tạo sân chơi cho trẻ tại phòng khách</a></td>
+                                    <td>
+                                        2017-07-29
+                                    </td>
+
+                                    <td>
+                                        <p style="text-align:center">Khi nh&agrave; c&oacute; trẻ nhỏ, c&aacute;c bậc cha mẹ lu&ocirc;n mong ...
+                                    </td>
+                                    <td>
+                                        <div class="hidden-sm hidden-xs">
+                                            <a href="suabaiviet?id=10">
+                                                <i class="ace-icon fa fa-edit bigger-130"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="hidden-sm hidden-xs">
+                                            <a data-toggle="modal" data-target="#10" class="red" href="#">
+                                                <i class="ace-icon fa fa-trash-o bigger-130"></i>
+                                            </a>
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                            <h4 class="red" class="modal-title">Xác nhận xóa</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <span>Bạn có muốn xóa bài viết: <h5 style="color: blue;"> <a href="/nhatro/baiviet?id=10" target="blank">Ý tưởng tạo sân chơi cho trẻ tại phòng khách</a></h5></span>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Không</button>
+                                                            <a type="button" href="xoabaiviet?id=10" class="btn btn-danger">Có</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="center">
+                                        <label class="pos-rel">
+                                            10
+                                        </label>
+                                    </td>
+                                    <td><a href="/nhatro/baiviet?id=11" target="blank">Ngoại thất xinh lung linh với chậu hoa màu sắc</a></td>
+                                    <td>
+                                        2017-07-29
+                                    </td>
+
+                                    <td>
+                                        <p style="text-align:center">Sử dụng những chậu c&acirc;y trang tr&iacute; l&agrave; c&aacute;ch để  ...
+                                    </td>
+                                    <td>
+                                        <div class="hidden-sm hidden-xs">
+                                            <a href="suabaiviet?id=11">
+                                                <i class="ace-icon fa fa-edit bigger-130"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="hidden-sm hidden-xs">
+                                            <a data-toggle="modal" data-target="#11" class="red" href="#">
+                                                <i class="ace-icon fa fa-trash-o bigger-130"></i>
+                                            </a>
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                            <h4 class="red" class="modal-title">Xác nhận xóa</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <span>Bạn có muốn xóa bài viết: <h5 style="color: blue;"> <a href="/nhatro/baiviet?id=11" target="blank">Ngoại thất xinh lung linh với chậu hoa màu sắc</a></h5></span>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Không</button>
+                                                            <a type="button" href="xoabaiviet?id=11" class="btn btn-danger">Có</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="center">
+                                        <label class="pos-rel">
+                                            11
+                                        </label>
+                                    </td>
+                                    <td><a href="/nhatro/baiviet?id=12" target="blank">Thiết kế sàn nhà 3D tuyệt đẹp</a></td>
+                                    <td>
+                                        2017-07-29
+                                    </td>
+
+                                    <td>
+                                        <p style="text-align:center">Gỗ l&agrave; một trong những vật liệu phổ biến thường được sử dụng cho  ...
+                                    </td>
+                                    <td>
+                                        <div class="hidden-sm hidden-xs">
+                                            <a href="suabaiviet?id=12">
+                                                <i class="ace-icon fa fa-edit bigger-130"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="hidden-sm hidden-xs">
+                                            <a data-toggle="modal" data-target="#12" class="red" href="#">
+                                                <i class="ace-icon fa fa-trash-o bigger-130"></i>
+                                            </a>
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                            <h4 class="red" class="modal-title">Xác nhận xóa</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <span>Bạn có muốn xóa bài viết: <h5 style="color: blue;"> <a href="/nhatro/baiviet?id=12" target="blank">Thiết kế sàn nhà 3D tuyệt đẹp</a></h5></span>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Không</button>
+                                                            <a type="button" href="xoabaiviet?id=12" class="btn btn-danger">Có</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="center">
+                                        <label class="pos-rel">
+                                            12
+                                        </label>
+                                    </td>
+                                    <td><a href="/nhatro/baiviet?id=13" target="blank">Cách sắp đặt ban công cho căn hộ nhỏ</a></td>
+                                    <td>
+                                        2017-07-29
+                                    </td>
+
+                                    <td>
+                                        <h3 style="text-align:center">L&ocirc; gia c&oacute; thể thiết kế cạnh ph&ograve;ng bếp để h&uacute; ...
+                                    </td>
+                                    <td>
+                                        <div class="hidden-sm hidden-xs">
+                                            <a href="suabaiviet?id=13">
+                                                <i class="ace-icon fa fa-edit bigger-130"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="hidden-sm hidden-xs">
+                                            <a data-toggle="modal" data-target="#13" class="red" href="#">
+                                                <i class="ace-icon fa fa-trash-o bigger-130"></i>
+                                            </a>
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                            <h4 class="red" class="modal-title">Xác nhận xóa</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <span>Bạn có muốn xóa bài viết: <h5 style="color: blue;"> <a href="/nhatro/baiviet?id=13" target="blank">Cách sắp đặt ban công cho căn hộ nhỏ</a></h5></span>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Không</button>
+                                                            <a type="button" href="xoabaiviet?id=13" class="btn btn-danger">Có</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div><!-- /.span -->
+                    <!-- Xử lý hiển thị số phân trang -->
+
+
+
+
+                </div><!-- /.row -->
+                <!-- PAGE CONTENT ENDS -->
+            </div><!-- /.col -->
+
+        </div><!-- /.row -->
+    </div><!-- /.page-content -->
+</div>

@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta charset="utf-8" />
+		<title>Dashboard - Ace Admin</title>
+
+		<meta name="description" content="overview &amp; stats" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+		<!-- bootstrap & fontawesome -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/font-awesome/4.5.0/css/font-awesome.min.css" />
+
+		<!-- page specific plugin styles -->
+
+		<!-- text fonts -->
+		<link rel="stylesheet" href="assets/css/fonts.googleapis.com.css" />
+
+		<!-- ace styles -->
+		<link rel="stylesheet" href="assets/css/ace.min.css" class="ace-main-stylesheet" id="main-ace-style" />
+
+		<!--[if lte IE 9]>
+			<link rel="stylesheet" href="assets/css/ace-part2.min.css" class="ace-main-stylesheet" />
+		<![endif]-->
+		<link rel="stylesheet" href="assets/css/ace-skins.min.css" />
+		<link rel="stylesheet" href="assets/css/ace-rtl.min.css" />
+
+		<!--[if lte IE 9]>
+		  <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
+		<![endif]-->
+
+		<!-- inline styles related to this page -->
+
+		<!-- ace settings handler -->
+		<script src="assets/js/ace-extra.min.js"></script>
+		<script src="assets/js/jquery-1.11.3.min.js"></script>
+
+		<!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
+
+		<!--[if lte IE 8]>
+		<script src="assets/js/html5shiv.min.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" href="datatable/media/css/jquery.dataTables.min.css"/>
+	</head>
+
+	<body class="no-skin">
+<div id="navbar" class="navbar navbar-default          ace-save-state">
+			<div class="navbar-container ace-save-state" id="navbar-container">
+				<button type="button" class="navbar-toggle menu-toggler pull-left" id="menu-toggler" data-target="#sidebar">
+					<span class="sr-only">Toggle sidebar</span>
+
+					<span class="icon-bar"></span>
+
+					<span class="icon-bar"></span>
+
+					<span class="icon-bar"></span>
+				</button>
+
+				<div class="navbar-header pull-left">
+					<a href="index.html" class="navbar-brand">
+						<small>
+							<i class="fa fa-leaf"></i>
+							TÔI THUÊ TRỌ.vn
+						</small>
+					</a>
+				</div>
+				<div class="navbar-buttons navbar-header pull-right" role="navigation">
+					<ul class="nav ace-nav">
+						<li class="light-blue dropdown-modal">
+							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
+								<img class="nav-user-photo" src="assets/images/avatars/user.jpg" alt="Jason's Photo" />
+								<span class="user-info">
+									<small>Chào,</small>
+									admin
+								</span>
+
+								<i class="ace-icon fa fa-caret-down"></i>
+							</a>
+							<ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+								<li>
+									<a href="chitietnguoidung?username=admin">
+										<i class="ace-icon fa fa-user"></i>
+										Trang cá nhân 
+									</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="dangxuat">
+										<i class="ace-icon fa fa-power-off"></i>
+										Đăng xuất
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div><!-- /.navbar-container -->
+		</div>
+
+		<div class="main-container ace-save-state" id="main-container">
+			<script type="text/javascript">
+				try{ace.settings.loadState('main-container')}catch(e){}
+			</script>
+
+<!-- Menu left -->
+			
+<div id="sidebar" class="sidebar responsive ace-save-state">
+				<script type="text/javascript">
+					try{ace.settings.loadState('sidebar')}catch(e){}
+				</script>
+				<ul class="nav nav-list">
+					<li class="active">
+						<a href="index.html">
+							<i class="menu-icon fa fa-tachometer"></i>
+							<span class="menu-text"> Dashboard </span>
+						</a>
+					</li>
+					<li class="">
+						<a href="quanlynguoidung" class="">
+							<i class="menu-icon fa fa-user"></i>
+							<span class="menu-text">
+								Quản lý người dùng
+							</span>
+						</a>
+					</li>
+					<li class="">
+						<a href="quanlyphongtro" class="">
+							<i class="menu-icon fa fa-home"></i>
+							<span class="menu-text"> Quản lý phòng trọ</span>
+						</a>
+					</li>
+					<li class="">
+						<a href="quanlyphanhoi" class="">
+							<i class="menu-icon fa fa-pencil-square-o"></i>
+							<span class="menu-text"> Quản lý phản hồi</span>
+						</a>
+					</li>
+					<li class="">
+						<a href="quanlybinhluan" class="">
+							<i class="menu-icon fa fa-pencil-square-o"></i>
+							<span class="menu-text"> Quản lý bình luận</span>
+						</a>
+					</li>
+					<li class="">
+						<a href="quanlytinhthanh">
+							<i class="menu-icon fa fa-list-alt"></i>
+							<span class="menu-text"> Quản lý Tỉnh thành</span>
+						</a>
+					</li>
+					<li class="">
+						<a href="quanlyquanhuyen">
+							<i class="menu-icon fa fa-list-alt"></i>
+							<span class="menu-text">
+								Quản lý Quận Huyện
+							</span>
+						</a>
+						<b class="arrow"></b>
+					</li>
+					<li class="">
+						<a href="quanlybaiviet">
+							<i class="menu-icon fa fa-pencil-square-o"></i>
+							<span class="menu-text">Quản lý bài viết</span>
+						</a>
+						<b class="arrow"></b>
+					</li>
+					<li class="">
+						<a href="quanlykiemduyet">
+							<i class="menu-icon fa fa-check"></i>
+							<span class="menu-text">Kiểm duyệt tin đăng</span>
+						</a>
+						<b class="arrow"></b>
+					</li>
+				</ul><!-- /.nav-list -->
+				<div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
+					<i id="sidebar-toggle-icon" class="ace-icon fa fa-angle-double-left ace-save-state" data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i>
+				</div>
+			</div>
+<!-- End menu left -->
+			<div class="main-content">
+				<div class="main-content-inner">
+					<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+						<ul class="breadcrumb">
+							<li>
+								<i class="ace-icon fa fa-home home-icon"></i>
+								<a href="#">Home</a>
+							</li>
+							<li class="active">Quản lý phòng trọ</li>
+						</ul><!-- /.breadcrumb -->
+					</div>
+					<div class="page-content">
+					<div class="nav-search pull-right" id="nav-search">
+						</div><!-- /.nav-search -->
+						<h1>
+								<small>
+									<i class="ace-icon fa fa-angle-double-right"></i>
+									Quản lý phòng trọ
+								</small>
+							</h1>
+						<div class="page-header">
+						</div><!-- /.page-header -->
+
+						<div class="row">
+							<div class="col-xs-12">
+								<!-- PAGE CONTENT BEGINS -->
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="clearfix">	
+											<div class="pull-right tableTools-container"></div>
+										</div>
+										<div class="table-header">
+											Danh sách phòng trọ
+										</div>
+										
+										<!-- div.table-responsive -->
+
+										<!-- div.dataTables_borderWrap -->
+											<table id="tbl" class="table table-responsive table-striped table-bordered table-hover">
+												<thead>
+													<tr>
+														<th class="center">
+															<label class="pos-rel">
+																STT
+															</label>
+														</th>
+														<th>Người dùng</th>
+														<th>Tiêu đề</th>
+														<th>Diện tích (m<sup>2</sup>)</th>
+														<th>Giá phòng (VNĐ)</th>
+														<th>Giá điện (VNĐ)</th>
+														<th>Giá nước (VNĐ)</th>
+														<th>Tỉnh thành</th>
+														<th>Tác vụ</th>
+														
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td class="center">
+															1
+														</td>
+														<td><a href="chitietnguoidung?username=admin">admin</a></td>
+														<td><a href="/nhatro/phongtro?id=13" target="blank">Tìm nữ ở ghép phòng trọ số 12 Lưu Chí Hiếu</a></td>
+														<td>15</td>
+														<td class="hidden-480">1,600,000</td>
+														<td>3 Nghìn/Số</td>
+														<td class="hidden-480">13 Nghìn/Số</td>
+														<td>Hồ Chí Minh</td>													
+														<td class="center">
+															<div class="hidden-sm hidden-xs action-buttons">
+<!-- 																<a class="blue" href="#">
+																	<i class="ace-icon fa fa-search-plus bigger-130"></i>
+																</a>
+ -->
+																<a class="red" data-toggle="modal" data-target="#13" >
+																	<i class="ace-icon fa fa-trash-o bigger-130"></i>
+																</a>
+																<!-- Modal -->
+													<div class="modal fade" id="13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+													  <div class="modal-dialog" role="document">
+													    <div class="modal-content">
+													      <div class="modal-header">
+													        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+													      	<h4 class="red" class="modal-title">Xác nhận xóa</h4>
+													      </div>
+													      <div class="modal-body">
+															<span>Bạn có muốn xóa phòng trọ: <h5 style="color: blue;"> <a href="/nhatro/phongtro?id=13" target="blank">Tìm nữ ở ghép phòng trọ số 12 Lưu Chí Hiếu</a></h5></span>
+													      </div>
+													      <div class="modal-footer">
+													     	 <button type="button" class="btn btn-primary" data-dismiss="modal">Không</button>
+													        <a type="button" href="xoaphongtro?id=13" class="btn btn-danger" >Có</a>
+													      </div>
+													    </div>
+													  </div>
+													</div>
+															</div>
+
+															
+														</td>
+													</tr>
+													
+													<tr>
+														<td class="center">
+															2
+														</td>
+														<td><a href="chitietnguoidung?username=admin">admin</a></td>
+														<td><a href="/nhatro/phongtro?id=12" target="blank">Cho thuê phòng trọ số 5A Bãi Sậy P13 Q5</a></td>
+														<td>20</td>
+														<td class="hidden-480">1,800,000</td>
+														<td>2.5 Nghìn/Số</td>
+														<td class="hidden-480">50 Nghìn/Người</td>
+														<td>Hồ Chí Minh</td>
+
+														
+
+														<td class="center">
+															<div class="hidden-sm hidden-xs action-buttons">
+<!-- 																<a class="blue" href="#">
+																	<i class="ace-icon fa fa-search-plus bigger-130"></i>
+																</a>
+ -->
+																<a class="red" data-toggle="modal" data-target="#12" >
+																	<i class="ace-icon fa fa-trash-o bigger-130"></i>
+																</a>
+																<!-- Modal -->
+													<div class="modal fade" id="12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+													  <div class="modal-dialog" role="document">
+													    <div class="modal-content">
+													      <div class="modal-header">
+													        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+													      	<h4 class="red" class="modal-title">Xác nhận xóa</h4>
+													      </div>
+													      <div class="modal-body">
+															<span>Bạn có muốn xóa phòng trọ: <h5 style="color: blue;"> <a href="/nhatro/phongtro?id=12" target="blank">Cho thuê phòng trọ số 5A Bãi Sậy P13 Q5</a></h5></span>
+													      </div>
+													      <div class="modal-footer">
+													     	 <button type="button" class="btn btn-primary" data-dismiss="modal">Không</button>
+													        <a type="button" href="xoaphongtro?id=12" class="btn btn-danger" >Có</a>
+													      </div>
+													    </div>
+													  </div>
+													</div>
+															</div>
+
+															
+														</td>
+													</tr>
+													
+													<tr>
+														<td class="center">
+															3
+														</td>
+														<td><a href="chitietnguoidung?username=admin">admin</a></td>
+														<td><a href="/nhatro/phongtro?id=11" target="blank">Cho thuê phòng trung tâm Q1, giá:5tr</a></td>
+														<td>40</td>
+														<td class="hidden-480">5,000,000</td>
+														<td>Chưa xác định</td>
+														<td class="hidden-480">Chưa xác định</td>
+														<td>Hồ Chí Minh</td>
+
+														
+
+														<td class="center">
+															<div class="hidden-sm hidden-xs action-buttons">
+<!-- 																<a class="blue" href="#">
+																	<i class="ace-icon fa fa-search-plus bigger-130"></i>
+																</a>
+ -->
+																<a class="red" data-toggle="modal" data-target="#11" >
+																	<i class="ace-icon fa fa-trash-o bigger-130"></i>
+																</a>
+																<!-- Modal -->
+													<div class="modal fade" id="11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+													  <div class="modal-dialog" role="document">
+													    <div class="modal-content">
+													      <div class="modal-header">
+													        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+													      	<h4 class="red" class="modal-title">Xác nhận xóa</h4>
+													      </div>
+													      <div class="modal-body">
+															<span>Bạn có muốn xóa phòng trọ: <h5 style="color: blue;"> <a href="/nhatro/phongtro?id=11" target="blank">Cho thuê phòng trung tâm Q1, giá:5tr</a></h5></span>
+													      </div>
+													      <div class="modal-footer">
+													     	 <button type="button" class="btn btn-primary" data-dismiss="modal">Không</button>
+													        <a type="button" href="xoaphongtro?id=11" class="btn btn-danger" >Có</a>
+													      </div>
+													    </div>
+													  </div>
+													</div>
+															</div>
+
+															
+														</td>
+													</tr>
+													
+													<tr>
+														<td class="center">
+															4
+														</td>
+														<td><a href="chitietnguoidung?username=admin">admin</a></td>
+														<td><a href="/nhatro/phongtro?id=10" target="blank">Phòng cho thuê sạch sẽ rộng rãi tại Quận 3</a></td>
+														<td>25</td>
+														<td class="hidden-480">3,000,000</td>
+														<td>Chưa xác định</td>
+														<td class="hidden-480">Chưa xác định</td>
+														<td>Hồ Chí Minh</td>
+
+														
+
+														<td class="center">
+															<div class="hidden-sm hidden-xs action-buttons">
+<!-- 																<a class="blue" href="#">
+																	<i class="ace-icon fa fa-search-plus bigger-130"></i>
+																</a>
+ -->
+																<a class="red" data-toggle="modal" data-target="#10" >
+																	<i class="ace-icon fa fa-trash-o bigger-130"></i>
+																</a>
+																<!-- Modal -->
+													<div class="modal fade" id="10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+													  <div class="modal-dialog" role="document">
+													    <div class="modal-content">
+													      <div class="modal-header">
+													        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+													      	<h4 class="red" class="modal-title">Xác nhận xóa</h4>
+													      </div>
+													      <div class="modal-body">
+															<span>Bạn có muốn xóa phòng trọ: <h5 style="color: blue;"> <a href="/nhatro/phongtro?id=10" target="blank">Phòng cho thuê sạch sẽ rộng rãi tại Quận 3</a></h5></span>
+													      </div>
+													      <div class="modal-footer">
+													     	 <button type="button" class="btn btn-primary" data-dismiss="modal">Không</button>
+													        <a type="button" href="xoaphongtro?id=10" class="btn btn-danger" >Có</a>
+													      </div>
+													    </div>
+													  </div>
+													</div>
+															</div>
+
+															
+														</td>
+													</tr>
+													
+													<tr>
+														<td class="center">
+															5
+														</td>
+														<td><a href="chitietnguoidung?username=admin">admin</a></td>
+														<td><a href="/nhatro/phongtro?id=9" target="blank">Cho thuê phòng trọ-kios ngay cổng KCN Tân Thới Hiệp,chợ Hiệp Thành Q12,có gác lửng,cap,net,bãi xe</a></td>
+														<td>25</td>
+														<td class="hidden-480">1,700,000</td>
+														<td>Nhà nước quy định</td>
+														<td class="hidden-480">Nhà nước quy định</td>
+														<td>Hồ Chí Minh</td>
+
+														
+
+														<td class="center">
+															<div class="hidden-sm hidden-xs action-buttons">
+<!-- 																<a class="blue" href="#">
+																	<i class="ace-icon fa fa-search-plus bigger-130"></i>
+																</a>
+ -->
+																<a class="red" data-toggle="modal" data-target="#9" >
+																	<i class="ace-icon fa fa-trash-o bigger-130"></i>
+																</a>
+																<!-- Modal -->
+													<div class="modal fade" id="9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+													  <div class="modal-dialog" role="document">
+													    <div class="modal-content">
+													      <div class="modal-header">
+													        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+													      	<h4 class="red" class="modal-title">Xác nhận xóa</h4>
+													      </div>
+													      <div class="modal-body">
+															<span>Bạn có muốn xóa phòng trọ: <h5 style="color: blue;"> <a href="/nhatro/phongtro?id=9" target="blank">Cho thuê phòng trọ-kios ngay cổng KCN Tân Thới Hiệp,chợ Hiệp Thành Q12,có gác lửng,cap,net,bãi xe</a></h5></span>
+													      </div>
+													      <div class="modal-footer">
+													     	 <button type="button" class="btn btn-primary" data-dismiss="modal">Không</button>
+													        <a type="button" href="xoaphongtro?id=9" class="btn btn-danger" >Có</a>
+													      </div>
+													    </div>
+													  </div>
+													</div>
+															</div>
+
+															
+														</td>
+													</tr>	
+												</tbody>
+											</table>
+<!--  PHÂN TRANG -->
+<!-- Xử lý hiển thị số phân trang -->
+
+										
+									</div>
+								</div>
+
+							
+
+								<!-- PAGE CONTENT ENDS -->
+							</div><!-- /.col -->
+						</div><!-- /.row -->
+					</div><!-- /.page-content -->
+				</div>
+			</div><!-- /.main-content -->
+
+			<div class="footer">
+				<div class="footer-inner">
+					<div class="footer-content">
+						<span class="bigger-120">
+							<span class="blue bolder">Ace</span>
+							Application &copy; 2013-2014
+						</span>
+
+						&nbsp; &nbsp;
+						<span class="action-buttons">
+							<a href="#">
+								<i class="ace-icon fa fa-twitter-square light-blue bigger-150"></i>
+							</a>
+
+							<a href="#">
+								<i class="ace-icon fa fa-facebook-square text-primary bigger-150"></i>
+							</a>
+
+							<a href="#">
+								<i class="ace-icon fa fa-rss-square orange bigger-150"></i>
+							</a>
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+				<i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
+			</a>
+		</div><!-- /.main-container -->
+
+		<!-- basic scripts -->
+
+		<!--[if !IE]> -->
+		<script src="assets/js/jquery-2.1.4.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+
+		<!-- page specific plugin scripts -->
+		<script src="assets/js/jquery.dataTables.min.js"></script>
+		<script src="assets/js/jquery.dataTables.bootstrap.min.js"></script>
+		<script src="assets/js/dataTables.buttons.min.js"></script>
+		<script src="assets/js/buttons.flash.min.js"></script>
+		<script src="assets/js/buttons.html5.min.js"></script>
+		<script src="assets/js/buttons.print.min.js"></script>
+		<script src="assets/js/buttons.colVis.min.js"></script>
+		<script src="assets/js/dataTables.select.min.js"></script>
+		<!-- ace scripts -->
+		<script src="assets/js/ace-elements.min.js"></script>
+		<script src="assets/js/ace.min.js"></script>
+
+		<!-- inline scripts related to this page -->
+		<script type="text/javascript">
+			jQuery(function($) {
+				$('#tbl').DataTable({
+					"language":{
+					    "decimal":        "",
+					    "emptyTable":     "Không có dữ liệu",
+					    "info":           "",
+					    "infoEmpty":      "",
+					    "infoFiltered":   "(filtered from _MAX_ total entries)",
+					    "infoPostFix":    "",
+					    "thousands":      ",",
+					    "lengthMenu":     "Hiển thị _MENU_ hàng",
+					    "loadingRecords": "Đang tải...",
+					    "processing":     "Processing...",
+					    "search":         "Tìm kiếm:",
+					    "zeroRecords":    "No matching records found",
+					    "paginate": {
+					        "first":      "Trang đầu",
+					        "last":       "Trang cuối",
+					        "next":       "Sau",
+					        "previous":   "Trước"
+					    },
+					    "aria": {
+					        "sortAscending":  ": activate to sort column ascending",
+					        "sortDescending": ": activate to sort column descending"
+					    }
+					}
+				});
+			})
+		</script>
+	</body>
+</html>
+

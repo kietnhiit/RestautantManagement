@@ -68,5 +68,25 @@ namespace DAL
                 return false;
             }
         }
+
+        public bool DeleteTypeEmployee(int id)
+        {
+            try
+            {
+                TypeOfEmployeeBLL type = db.TypeOfEmployees.Find(id);
+                if (type != null)
+                {
+                    db.TypeOfEmployees.Remove(type);
+                    db.SaveChanges();
+                    return true;
+                }
+                return false;
+
+            }
+            catch
+            {
+                return false;
+            }
+        }
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{DC5F8844-AAA6-4DC9-8299-C455762B9CE5}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{DC114751-625E-44C8-964A-6EE1721BCDAD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{6FAAEF0E-2CB8-4DE4-B8D5-A0BA61E81494}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEnd", "FrontEnd\FrontEnd.csproj", "{F195943B-C061-4F54-B793-7FCD81C188E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{6FAAEF0E-2CB8-4DE4-B8D5-A0BA61E81494}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FAAEF0E-2CB8-4DE4-B8D5-A0BA61E81494}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FAAEF0E-2CB8-4DE4-B8D5-A0BA61E81494}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F195943B-C061-4F54-B793-7FCD81C188E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F195943B-C061-4F54-B793-7FCD81C188E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F195943B-C061-4F54-B793-7FCD81C188E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F195943B-C061-4F54-B793-7FCD81C188E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

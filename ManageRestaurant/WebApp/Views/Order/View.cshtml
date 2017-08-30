@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewBag.Title = "View";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<h2>View</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Area
+        </th>
+        <th>
+           ExportDate
+        </th>
+        <th>
+            TotalPrice
+        </th>
+        <th>
+           Type
+        </th>
+        <th></th>
+    </tr>
+
+    <tr>
+        <td>
+            {{}}
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ExportDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TotalPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Type)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.OrderID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.OrderID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.OrderID })
+        </td>
+    </tr>
+
+</table>
